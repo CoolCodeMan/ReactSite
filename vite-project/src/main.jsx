@@ -6,6 +6,9 @@ import Root from "./routes/root"
 import ErrorPage from "./error-page";
 import InfoPage from "./routes/infopage";
 import Newsupdates from "./routes/newsupdates";
+import Archives from "./routes/archives";
+import Skills from "./routes/skills";
+
 
 const router = createBrowserRouter([
   {
@@ -24,7 +27,20 @@ const router = createBrowserRouter([
             path:"newsupdates",
             element: <Newsupdates />,
             errorElement: <ErrorPage/>,
-        }
+        },
+
+        {
+            path:"archives",
+            element: <Archives />,
+            errorElement: <ErrorPage/>,
+        },
+
+        {
+            path:"skills",
+            element: <Skills />,
+            errorElement: <ErrorPage/>,
+        },
+
 
     ]
   },

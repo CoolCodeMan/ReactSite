@@ -9,6 +9,9 @@ export default function Root() {
 
       <a href="/infopage">Info</a><br/><br/>
       <a href="/newsupdates">News & Updates</a><br/><br/>
+      <a href="/skills">Skills</a><br/><br/>
+
+      <a href="/archives">Archives</a><br/><br/>
 
 
       </div>

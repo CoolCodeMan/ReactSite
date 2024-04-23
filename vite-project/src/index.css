@@ -5,9 +5,12 @@
 }
 
 #contentStyle {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position:relative;
     left: 25%;
     overflow-y: scroll; 
-    height:1000px;
+    height:800px;
     width:75%;
+    background-color: beige;
+    padding: 1%;
 }
