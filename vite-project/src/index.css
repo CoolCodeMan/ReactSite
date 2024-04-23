@@ -1,3 +1,13 @@
-#textual_style {
+#sidebarStyle {
     font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    width: 25%;
+}
+
+#contentStyle {
+    position:relative;
+    left: 25%;
+    overflow-y: scroll; 
+    height:1000px;
+    width:75%;
 }
