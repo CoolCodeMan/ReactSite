@@ -2,9 +2,11 @@
 export default function Infopage() {
     return(
         <>
-        <h3>Information</h3>
+        <h3>Information ℹ️</h3>
         
-        <p>this page contains information about programming projects etc.</p>
+        <p>This is my website.</p>
+
+        <p>This website is powered by React.</p>
 
 
         </>

@@ -5,7 +5,7 @@ export default function Root() {
       <>
 
       <div id="sidebarStyle">
-      <h1>MySite, welcome</h1>
+      <h1>👤 MySite, welcome</h1>
 
       <a href="/infopage">Info</a><br/><br/>
       <a href="/newsupdates">News & Updates</a><br/><br/>
